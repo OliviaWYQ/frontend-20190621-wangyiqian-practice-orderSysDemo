@@ -1,20 +1,10 @@
-/*!
-
-=========================================================
-* Material Dashboard React - v1.7.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/material-dashboard-react
-* Copyright 2019 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/material-dashboard-react/blob/master/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
+/*
+ * @Name: NavBar.jsx
+ * @Description: NavBar
+ * @Creation Time: 2019/07/09 18:30.
+ * @Author: wangyiqian
+ * @Since: OderSysDemo 0.1.0
+ */
 import React from "react";
 import classNames from "classnames";
 import PropTypes from "prop-types";
@@ -28,9 +18,22 @@ import Hidden from "@material-ui/core/Hidden";
 import Menu from "@material-ui/icons/Menu";
 // core components
 import AdminNavbarLinks from "./AdminNavbarLinks.jsx";
-import Button from "components/CustomButtons/Button.jsx";
+import Button from "../CustomButtons/Button.jsx";
 
-import headerStyle from "assets/jss/material-dashboard-react/components/headerStyle.jsx";
+import headerStyle from "../../assets/jss/material-dashboard-react/components/headerStyle.jsx";
+
+import Radium, { StyleRoot } from "radium";
+
+const blank = {
+  float: "left",
+  display: "block",
+  width: "260px",
+  "@media (max-width: 991px)": {
+    float: "left",
+    display: "block",
+    width: 0
+  }
+};
 
 function Header({ ...props }) {
   function makeBrand() {
@@ -49,6 +52,11 @@ function Header({ ...props }) {
   });
   return (
     <AppBar className={classes.appBar + appBarClasses}>
+      <StyleRoot>
+        <div style={blank}>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </div>
+      </StyleRoot>
       <Toolbar className={classes.container}>
         <div className={classes.flex}>
           {/* Here we create navbar brand, based on route name */}
@@ -76,9 +84,8 @@ function Header({ ...props }) {
 Header.propTypes = {
   classes: PropTypes.object.isRequired,
   color: PropTypes.oneOf(["primary", "info", "success", "warning", "danger"]),
-  rtlActive: PropTypes.bool,
   handleDrawerToggle: PropTypes.func,
   routes: PropTypes.arrayOf(PropTypes.object)
 };
 
-export default withStyles(headerStyle)(Header);
+export default withStyles(headerStyle)(Radium(Header));

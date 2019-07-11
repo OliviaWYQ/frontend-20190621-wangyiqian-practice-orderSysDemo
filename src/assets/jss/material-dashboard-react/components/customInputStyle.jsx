@@ -1,38 +1,21 @@
-/*!
-
-=========================================================
-* Material Dashboard React - v1.7.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/material-dashboard-react
-* Copyright 2019 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/material-dashboard-react/blob/master/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import {
   primaryColor,
   dangerColor,
   successColor,
   grayColor,
   defaultFont
-} from "assets/jss/material-dashboard-react.jsx";
+} from "../../material-dashboard-react.jsx";
 
 const customInputStyle = {
   disabled: {
     "&:before": {
-      backgroundColor: "transparent !important"
+      backgroundColor: "transparent"
     }
   },
   underline: {
     "&:hover:not($disabled):before,&:before": {
-      borderColor: grayColor[4] + " !important",
-      borderWidth: "1px !important"
+      borderColor: grayColor[4],
+      borderWidth: "1px"
     },
     "&:after": {
       borderColor: primaryColor[0]
@@ -50,7 +33,7 @@ const customInputStyle = {
   },
   labelRoot: {
     ...defaultFont,
-    color: grayColor[3] + " !important",
+    color: grayColor[3],
     fontWeight: "400",
     fontSize: "14px",
     lineHeight: "1.42857",

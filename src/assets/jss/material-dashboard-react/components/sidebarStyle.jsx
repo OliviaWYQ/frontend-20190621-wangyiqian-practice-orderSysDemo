@@ -1,20 +1,3 @@
-/*!
-
-=========================================================
-* Material Dashboard React - v1.7.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/material-dashboard-react
-* Copyright 2019 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/material-dashboard-react/blob/master/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import {
   drawerWidth,
   transition,
@@ -30,7 +13,7 @@ import {
   grayColor,
   blackColor,
   hexToRgb
-} from "assets/jss/material-dashboard-react.jsx";
+} from "../../material-dashboard-react.jsx";
 
 const sidebarStyle = theme => ({
   drawerPaper: {
@@ -67,16 +50,6 @@ const sidebarStyle = theme => ({
       ...transition
     }
   },
-  drawerPaperRTL: {
-    [theme.breakpoints.up("md")]: {
-      left: "auto !important",
-      right: "0 !important"
-    },
-    [theme.breakpoints.down("sm")]: {
-      left: "0  !important",
-      right: "auto !important"
-    }
-  },
   logo: {
     position: "relative",
     padding: "15px 15px",
@@ -106,9 +79,6 @@ const sidebarStyle = theme => ({
     "&,&:hover": {
       color: whiteColor
     }
-  },
-  logoLinkRTL: {
-    textAlign: "right"
   },
   logoImage: {
     width: "30px",
@@ -184,20 +154,12 @@ const sidebarStyle = theme => ({
     verticalAlign: "middle",
     color: "rgba(" + hexToRgb(whiteColor) + ", 0.8)"
   },
-  itemIconRTL: {
-    marginRight: "3px",
-    marginLeft: "15px",
-    float: "right"
-  },
   itemText: {
     ...defaultFont,
     margin: "0",
     lineHeight: "30px",
     fontSize: "14px",
     color: whiteColor
-  },
-  itemTextRTL: {
-    textAlign: "right"
   },
   whiteFont: {
     color: whiteColor
@@ -305,13 +267,6 @@ const sidebarStyle = theme => ({
     width: "260px",
     zIndex: "4",
     overflowScrolling: "touch"
-  },
-  activePro: {
-    [theme.breakpoints.up("md")]: {
-      position: "absolute",
-      width: "100%",
-      bottom: "13px"
-    }
   }
 });
 

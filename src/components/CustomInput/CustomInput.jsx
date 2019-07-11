@@ -1,20 +1,10 @@
-/*!
-
-=========================================================
-* Material Dashboard React - v1.7.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/material-dashboard-react
-* Copyright 2019 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/material-dashboard-react/blob/master/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
+/*
+ * @Name: CustomInput.jsx
+ * @Description: CustomInput
+ * @Creation Time: 2019/07/09 18:30.
+ * @Author: wangyiqian
+ * @Since: OderSysDemo 0.1.0
+ */
 import React from "react";
 import classNames from "classnames";
 import PropTypes from "prop-types";
@@ -27,7 +17,7 @@ import Input from "@material-ui/core/Input";
 import Clear from "@material-ui/icons/Clear";
 import Check from "@material-ui/icons/Check";
 // core components
-import customInputStyle from "assets/jss/material-dashboard-react/components/customInputStyle.jsx";
+import customInputStyle from "../../assets/jss/material-dashboard-react/components/customInputStyle.jsx";
 
 function CustomInput({ ...props }) {
   const {
@@ -39,7 +29,8 @@ function CustomInput({ ...props }) {
     inputProps,
     error,
     success,
-    onChange,
+    // eslint-disable-next-line react/prop-types
+    onChange
   } = props;
 
   const labelClasses = classNames({

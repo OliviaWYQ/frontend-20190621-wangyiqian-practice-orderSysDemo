@@ -1,3 +1,10 @@
+/*
+ * @Name: Card.jsx
+ * @Description: Card
+ * @Creation Time: 2019/07/09 18:30.
+ * @Author: wangyiqian
+ * @Since: OderSysDemo 0.1.0
+ */
 import React from "react";
 // nodejs library that concatenates classes
 import classNames from "classnames";
@@ -8,7 +15,7 @@ import withStyles from "@material-ui/core/styles/withStyles";
 // @material-ui/icons
 
 // core components
-import cardStyle from "assets/jss/material-dashboard-react/components/cardStyle.jsx";
+import cardStyle from "../../assets/jss/material-dashboard-react/components/cardStyle.jsx";
 
 function Card({ ...props }) {
   const {

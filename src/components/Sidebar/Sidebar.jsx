@@ -1,20 +1,10 @@
-/*!
-
-=========================================================
-* Material Dashboard React - v1.7.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/material-dashboard-react
-* Copyright 2019 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/material-dashboard-react/blob/master/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
+/*
+ * @Name: SideBar.jsx
+ * @Description: SideBar
+ * @Creation Time: 2019/07/09 18:30.
+ * @Author: wangyiqian
+ * @Since: OderSysDemo 0.1.0
+ */
 /*eslint-disable*/
 import React from "react";
 import classNames from "classnames";
@@ -29,9 +19,22 @@ import ListItem from "@material-ui/core/ListItem";
 import ListItemText from "@material-ui/core/ListItemText";
 import Icon from "@material-ui/core/Icon";
 // core components
-import AdminNavbarLinks from "components/Navbars/AdminNavbarLinks.jsx";
+import AdminNavbarLinks from "../Navbars/AdminNavbarLinks.jsx";
 
-import sidebarStyle from "assets/jss/material-dashboard-react/components/sidebarStyle.jsx";
+import sidebarStyle from "../../assets/jss/material-dashboard-react/components/sidebarStyle.jsx";
+import { display } from "@material-ui/system";
+import Radium, {StyleRoot}from 'radium';
+
+const blank = {
+  float:"left",
+  display: "block",
+  width: "260px",
+  '@media (max-width: 991px)': {
+    float:"left",
+    display: "block",
+    width: 0,
+  }
+}
 
 const Sidebar = ({ ...props }) => {
   // verifies if routeName is the one active (in browser input)
@@ -104,18 +107,46 @@ const Sidebar = ({ ...props }) => {
       </a>
     </div>
   );
+
   return (
     <div>
+      <StyleRoot>
+        <div style={blank}>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </div>
+      </StyleRoot>
+      <Hidden smDown implementation="css">
+        <Drawer
+          anchor={"left"}
+          variant="permanent"
+          open
+          // classes={{
+          //   paper: classNames(classes.drawerPaper, {
+          //     [classes.drawerPaperRTL]: props.rtlActive
+          //   })
+          // }}
+        >
+          {brand}
+          <div className={classes.sidebarWrapper}>{links}</div>
+          {image !== undefined ? (
+            <div
+              className={classes.background}
+              style={{ backgroundImage: "url(" + image + ")" }}
+            />
+          ) : null}
+        </Drawer>
+      </Hidden>
+      
       <Hidden mdUp implementation="css">
         <Drawer
           variant="temporary"
-          anchor={props.rtlActive ? "left" : "right"}
+          anchor={"right"}
           open={props.open}
-          classes={{
-            paper: classNames(classes.drawerPaper, {
-              [classes.drawerPaperRTL]: props.rtlActive
-            })
-          }}
+          // classes={{
+          //   paper: classNames(classes.drawerPaper, {
+          //     [classes.drawerPaperRTL]: props.rtlActive
+          //   })
+          // }}
           onClose={props.handleDrawerToggle}
           ModalProps={{
             keepMounted: true // Better open performance on mobile.
@@ -134,27 +165,7 @@ const Sidebar = ({ ...props }) => {
           ) : null}
         </Drawer>
       </Hidden>
-      <Hidden smDown implementation="css">
-        <Drawer
-          anchor={props.rtlActive ? "right" : "left"}
-          variant="permanent"
-          open
-          classes={{
-            paper: classNames(classes.drawerPaper, {
-              [classes.drawerPaperRTL]: props.rtlActive
-            })
-          }}
-        >
-          {brand}
-          <div className={classes.sidebarWrapper}>{links}</div>
-          {image !== undefined ? (
-            <div
-              className={classes.background}
-              style={{ backgroundImage: "url(" + image + ")" }}
-            />
-          ) : null}
-        </Drawer>
-      </Hidden>
+      
     </div>
   );
 };
@@ -171,4 +182,4 @@ Sidebar.propTypes = {
   open: PropTypes.bool
 };
 
-export default withStyles(sidebarStyle)(Sidebar);
+export default withStyles(sidebarStyle)(Radium(Sidebar));
