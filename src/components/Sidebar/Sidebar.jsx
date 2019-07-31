@@ -103,7 +103,7 @@ const Sidebar = ({ ...props }) => {
         <div className={classes.logoImage}>
           <img src={logo} alt="logo" className={classes.img} />
         </div>
-        {logoText}
+          {logoText}
       </a>
     </div>
   );
@@ -120,11 +120,11 @@ const Sidebar = ({ ...props }) => {
           anchor={"left"}
           variant="permanent"
           open
-          // classes={{
-          //   paper: classNames(classes.drawerPaper, {
-          //     [classes.drawerPaperRTL]: props.rtlActive
-          //   })
-          // }}
+          classes={{
+            paper: classNames(classes.drawerPaper, {
+              [classes.drawerPaperRTL]: props.rtlActive
+            })
+          }}
         >
           {brand}
           <div className={classes.sidebarWrapper}>{links}</div>
@@ -136,7 +136,7 @@ const Sidebar = ({ ...props }) => {
           ) : null}
         </Drawer>
       </Hidden>
-      
+
       <Hidden mdUp implementation="css">
         <Drawer
           variant="temporary"
@@ -165,7 +165,7 @@ const Sidebar = ({ ...props }) => {
           ) : null}
         </Drawer>
       </Hidden>
-      
+
     </div>
   );
 };

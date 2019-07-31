@@ -28,15 +28,18 @@ import CardHeader from "../Card/CardHeader.jsx";
 import CardFooter from "../Card/CardFooter.jsx";
 import CustomInput from "../CustomInput/CustomInput.jsx";
 import loginPageStyle from "../../assets/jss/material-kit-react/views/loginPage.jsx";
-// import image from "assets/img/bg7.jpg";
-import { Link } from "react-router-dom";
 import Dialog from "@material-ui/core/Dialog";
 import DialogTitle from "@material-ui/core/DialogTitle";
 import DialogContent from "@material-ui/core/DialogContent";
 import DialogContentText from "@material-ui/core/DialogContentText";
 import DialogActions from "@material-ui/core/DialogActions";
+// import image from "assets/img/bg7.jpg";
+import { withRouter } from "react-router-dom";
+// import { connect } from "react-redux";
 
+// @withRouter
 class LoginPage extends React.Component {
+  // mock database for users
   db = {
     userdata: [
       {
@@ -77,6 +80,7 @@ class LoginPage extends React.Component {
     );
   }
 
+  // fetch out the username typing
   changeUsername(e) {
     let name = e.target.value;
     this.setState({
@@ -84,6 +88,7 @@ class LoginPage extends React.Component {
     });
   }
 
+  // fetch out the password typing
   changePassword(e) {
     let passwd = e.target.value;
     this.setState({
@@ -91,24 +96,32 @@ class LoginPage extends React.Component {
     });
   }
 
-  handleSubmit(e) {
-    e.preventDefault();
-    for (var i = 0; i < this.db.userdata.length; i++) {
-      if (
-        this.db.userdata[i].username === this.state.username &&
-        this.db.userdata[i].password === this.state.password
-      ) {
-        this.setState({
-          next: "/admin"
-        });
-        // eslint-disable-next-line react/prop-types
-        this.props.history.push({
-          pathname: "/admin/table",
-          state: { username: this.state.username }
-        });
-        // console.log('Success!', this.state);
+  isValid(data, username, password) {
+    for (var i = 0; i < data.length; i++) {
+      if (data[i].username === username && data[i].password === password) {
+        return true;
       }
     }
+    return false;
+  }
+
+  // check the valid username and password after submit
+  handleSubmit(e) {
+    e.preventDefault();
+    if (
+      this.isValid(this.db.userdata, this.state.username, this.state.password)
+    ) {
+      this.setState({
+        next: "/admin"
+      });
+      // changing router to the right path with user control
+      // eslint-disable-next-line react/prop-types
+      this.props.history.push({
+        pathname: "/admin/table",
+        state: { username: this.state.username }
+      });
+    }
+    // pop a window if failed
     setTimeout(() => {
       if (this.state.next === "/login") {
         this.handleClickOpen();
@@ -144,7 +157,7 @@ class LoginPage extends React.Component {
             backgroundImage:
               "url(https://frontend-training.oss-cn-shenzhen.aliyuncs.com/bg7.jpg)",
             backgroundSize: "cover",
-            backgroundPosition: "top center",
+            backgroundPosition: "top center"
           }}
         >
           <div style={classes.container}>
@@ -159,7 +172,7 @@ class LoginPage extends React.Component {
                     <CardBody>
                       <CustomInput
                         labelText="用户名"
-                        id="username"
+                        id="user"
                         formControlProps={{
                           fullWidth: true
                         }}
@@ -199,16 +212,17 @@ class LoginPage extends React.Component {
                         simple
                         color="primary"
                         size="lg"
+                        id="submit"
                       >
-                        <Link
-                          to={{
-                            pathname: this.state.next
-                            // state: { username: this.state.username }
-                          }}
-                          style={{ ...classes, textDecoration: "none" }}
-                        >
-                          登陆
-                        </Link>
+                        {/*<Link*/}
+                        {/*  to={{*/}
+                        {/*    pathname: this.state.next*/}
+                        {/*    // state: { username: this.state.username }*/}
+                        {/*  }}*/}
+                        {/*  style={{ ...classes, textDecoration: "none" }}*/}
+                        {/*>*/}
+                        登陆
+                        {/*</Link>*/}
                       </Button>
                       {/*用户名或密码错误*/}
                       <div>
@@ -255,4 +269,5 @@ LoginPage.propTypes = {
 
 // export default withStyles(loginPageStyle)(LoginPage);
 
-export default LoginPage;
+// export default LoginPage;
+export default withRouter(LoginPage);

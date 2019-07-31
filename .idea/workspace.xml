@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75e5bbb5-2fdf-4005-bc66-6dc95aa423ef" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/customInputStyle.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/customInputStyle.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/sidebarStyle.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/sidebarStyle.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/jss/material-kit-react/views/loginPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/views/loginPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Grid/GridContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Grid/GridContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Grid/GridItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Grid/GridItem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Login/LoginPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login/LoginPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbars/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbars/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/Admin.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Admin.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/login.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/login.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/TableList/TableList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/TableList/TableList.jsx" afterDir="false" />
-    </list>
+    <list default="true" id="75e5bbb5-2fdf-4005-bc66-6dc95aa423ef" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -27,56 +12,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="271" />
+    <option name="myAutoScrollToSource" value="true" />
+    <option name="myAutoScrollFromSource" value="true" />
+    <option name="myElementSize" value="26" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/layouts/Admin.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#145#171#0" expanded="true" />
-                <element signature="e#301#350#0" expanded="true" />
-                <element signature="e#518#572#0" expanded="true" />
-                <element signature="e#754#785#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/TableList/TableList.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2530">
-              <caret line="115" column="29" selection-start-line="114" selection-start-column="10" selection-end-line="115" selection-end-column="29" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#381#439#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Login/LoginPage.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#362#424#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Table/Table.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
+            <state relative-caret-position="110">
               <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -86,10 +31,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/components.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Navbars/Navbar.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1914">
-              <caret line="87" column="43" lean-forward="true" selection-start-line="87" selection-start-column="43" selection-end-line="87" selection-end-column="43" />
+            <state relative-caret-position="1672">
+              <caret line="93" selection-start-line="93" selection-end-line="93" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#141#167#0" expanded="true" />
@@ -101,10 +58,53 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Sidebar/Sidebar.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3014">
+              <caret line="156" column="29" selection-start-line="156" selection-start-column="13" selection-end-line="156" selection-end-column="29" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/loginDOM.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="62" column="9" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#246#272#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/jest-jasmine2/build/queueRunner.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1782">
+              <caret line="81" selection-start-line="81" selection-end-line="81" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Navbars/AdminNavbarLinks.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2772">
-              <caret line="126" selection-start-line="126" selection-end-line="126" />
+            <state relative-caret-position="2024">
+              <caret line="110" column="24" selection-start-line="110" selection-start-column="24" selection-end-line="110" selection-end-column="24" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#239#274#0" expanded="true" />
@@ -115,44 +115,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/cardBodyStyle.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/sidebarStyle.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1144">
-              <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
-              <folding>
-                <element signature="e#0#258#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/cardHeaderStyle.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Sidebar/Sidebar.jsx">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/Login/LoginPage.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="418">
-              <caret line="81" column="28" selection-start-line="81" selection-start-column="28" selection-end-line="81" selection-end-column="28" />
+              <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
+                <element signature="e#362#424#0" expanded="true" />
+                <element signature="e#773#827#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/react-router-dom/esm/react-router-dom.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2310">
+              <caret line="112" column="4" selection-start-line="112" selection-start-column="4" selection-end-line="112" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -162,7 +143,17 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>loginPageStyle</find>
+      <find>logi\</find>
+      <find>state</find>
+      <find>this.props.history</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\Richstone\Gitllab\frontend-20190621-wangyiqian-practice-orderSysDemo</dir>
+      <dir>D:\Richstone\Gitllab\frontend-20190621-wangyiqian-practice-orderSysDemo\spec</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -170,26 +161,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/Card/CardHeader.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Card/CardIcon.jsx" />
-        <option value="$PROJECT_DIR$/src/components/CustomButtons/Button.jsx" />
-        <option value="$PROJECT_DIR$/src/components/CustomInput/CustomInput.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Footer/Footer.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Table/Table.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Typography/Danger.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Typography/Info.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Typography/Muted.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Typography/Primary.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Typography/Quote.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Typography/Success.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Typography/Warning.jsx" />
         <option value="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/buttonStyle.jsx" />
         <option value="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/cardFooterStyle.jsx" />
         <option value="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/cardHeaderStyle.jsx" />
         <option value="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/cardIconStyle.jsx" />
         <option value="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/cardStyle.jsx" />
         <option value="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/footerStyle.jsx" />
-        <option value="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/headerLinksStyle.jsx" />
         <option value="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/headerStyle.jsx" />
         <option value="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/tableStyle.jsx" />
         <option value="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/typographyStyle.jsx" />
@@ -197,38 +174,55 @@
         <option value="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/dropdownStyle.jsx" />
         <option value="$PROJECT_DIR$/src/test/test.js" />
         <option value="$PROJECT_DIR$/spec/support/jasmine.json" />
-        <option value="$PROJECT_DIR$/babel.config.js" />
         <option value="$PROJECT_DIR$/jest.config.js" />
         <option value="$PROJECT_DIR$/karma.conf.js" />
         <option value="$PROJECT_DIR$/karma.conf.ts" />
         <option value="$PROJECT_DIR$/.eslintrc.js" />
-        <option value="$PROJECT_DIR$/src/test/admin.test.js" />
-        <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/test/app.test.js" />
-        <option value="$PROJECT_DIR$/src/test/table.test.js" />
-        <option value="$PROJECT_DIR$/src/components/Card/Card.jsx" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/components/Navbars/AdminNavbarLinks.jsx" />
         <option value="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/cardFooterStyle.scss" />
-        <option value="$PROJECT_DIR$/src/test/login.test.js" />
         <option value="$PROJECT_DIR$/src/assets/jss/material-kit-react/views/loginPage.jsx" />
         <option value="$PROJECT_DIR$/src/components/Grid/GridContainer.jsx" />
         <option value="$PROJECT_DIR$/src/components/Grid/GridItem.jsx" />
         <option value="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/customInputStyle.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Sidebar/Sidebar.jsx" />
         <option value="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/sidebarStyle.jsx" />
         <option value="$PROJECT_DIR$/src/views/TableList/TableList.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Navbars/Navbar.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Login/LoginPage.jsx" />
+        <option value="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/headerLinksStyle.jsx" />
+        <option value="$PROJECT_DIR$/src/routes.js" />
+        <option value="$PROJECT_DIR$/src/assets/jss/material-kit-react.jsx" />
+        <option value="$PROJECT_DIR$/fileTransformer.js" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/src/test/index.test.js" />
+        <option value="$PROJECT_DIR$/babel.config.js" />
+        <option value="$PROJECT_DIR$/src/components/Card/Card.jsx" />
+        <option value="$PROJECT_DIR$/src/test/dom.test.js" />
+        <option value="$PROJECT_DIR$/src/test/admin.test.js" />
+        <option value="$PROJECT_DIR$/src/test/table.test.js" />
+        <option value="$PROJECT_DIR$/src/components/Sidebar/Sidebar.jsx" />
         <option value="$PROJECT_DIR$/src/layouts/Admin.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Navbars/Navbar.jsx" />
+        <option value="$PROJECT_DIR$/src/test/footerDOM.test.js" />
+        <option value="$PROJECT_DIR$/src/components/Footer/Footer.jsx" />
+        <option value="$PROJECT_DIR$/src/test/module.test.js" />
+        <option value="$PROJECT_DIR$/.babelrc" />
+        <option value="$PROJECT_DIR$/src/test/adminDOM.test.js" />
+        <option value="$PROJECT_DIR$/src/test/login.test.js" />
+        <option value="$PROJECT_DIR$/src/test/components.test.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/components/Navbars/AdminNavbarLinks.jsx" />
+        <option value="$PROJECT_DIR$/src/test/loginDOM.test.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/components/Login/LoginPage.jsx" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="width" value="1371" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-1" />
+    <option name="width" value="1368" />
     <option name="height" value="728" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -251,70 +245,7 @@
               <item name="frontend-20190621-wangyiqian-practice-orderSysDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="frontend-20190621-wangyiqian-practice-orderSysDemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frontend-20190621-wangyiqian-practice-orderSysDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frontend-20190621-wangyiqian-practice-orderSysDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="jss" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frontend-20190621-wangyiqian-practice-orderSysDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frontend-20190621-wangyiqian-practice-orderSysDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="jss" type="462c0819:PsiDirectoryNode" />
-              <item name="material-dashboard-react" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frontend-20190621-wangyiqian-practice-orderSysDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frontend-20190621-wangyiqian-practice-orderSysDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="jss" type="462c0819:PsiDirectoryNode" />
-              <item name="material-dashboard-react" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frontend-20190621-wangyiqian-practice-orderSysDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frontend-20190621-wangyiqian-practice-orderSysDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="jss" type="462c0819:PsiDirectoryNode" />
-              <item name="material-dashboard-react" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frontend-20190621-wangyiqian-practice-orderSysDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frontend-20190621-wangyiqian-practice-orderSysDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="jss" type="462c0819:PsiDirectoryNode" />
-              <item name="material-kit-react" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frontend-20190621-wangyiqian-practice-orderSysDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frontend-20190621-wangyiqian-practice-orderSysDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="jss" type="462c0819:PsiDirectoryNode" />
-              <item name="material-kit-react" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frontend-20190621-wangyiqian-practice-orderSysDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frontend-20190621-wangyiqian-practice-orderSysDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frontend-20190621-wangyiqian-practice-orderSysDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frontend-20190621-wangyiqian-practice-orderSysDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Card" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="frontend-20190621-wangyiqian-practice-orderSysDemo" type="b2602c69:ProjectViewProjectNode" />
@@ -322,27 +253,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="CustomButtons" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frontend-20190621-wangyiqian-practice-orderSysDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frontend-20190621-wangyiqian-practice-orderSysDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="CustomInput" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frontend-20190621-wangyiqian-practice-orderSysDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frontend-20190621-wangyiqian-practice-orderSysDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Footer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frontend-20190621-wangyiqian-practice-orderSysDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frontend-20190621-wangyiqian-practice-orderSysDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Grid" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="frontend-20190621-wangyiqian-practice-orderSysDemo" type="b2602c69:ProjectViewProjectNode" />
@@ -376,12 +286,6 @@
               <item name="frontend-20190621-wangyiqian-practice-orderSysDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="frontend-20190621-wangyiqian-practice-orderSysDemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frontend-20190621-wangyiqian-practice-orderSysDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frontend-20190621-wangyiqian-practice-orderSysDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -397,11 +301,6 @@
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="TableList" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="frontend-20190621-wangyiqian-practice-orderSysDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frontend-20190621-wangyiqian-practice-orderSysDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="karma.conf.coffee" type="620a8d5e:NestingTreeNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -412,7 +311,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../frontend-husiyuan-tutorial-mgtSysDemo" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -443,74 +342,79 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jest.login.test.js">
-    <configuration name="App test init" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Jest.admin.test.js">
+    <configuration name="Admin test init" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/src/test/login.test.js" />
+      <test-file value="$PROJECT_DIR$/src/test/components.test.js" />
       <test-names>
-        <test-name value="App test init" />
+        <test-name value="Admin test init" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="App test init.init" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="Admin test init.init" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/test/login.test.js" />
+      <test-file value="$PROJECT_DIR$/src/test/components.test.js" />
       <test-names>
-        <test-name value="App test init" />
+        <test-name value="Admin test init" />
         <test-name value="init" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="User Control test" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="Enzyme Mount Login Input.Test admin account" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
-      <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/src/test/table.test.js" />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/test/loginDOM.test.js" />
       <test-names>
-        <test-name value="User Control test" />
+        <test-name value="Enzyme Mount Login Input" />
+        <test-name value="Test admin account" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="login.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="Enzyme Shallow Login Init.Test Button" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
-      <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/src/test/login.test.js" />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/test/loginDOM.test.js" />
+      <test-names>
+        <test-name value="Enzyme Shallow Login Init" />
+        <test-name value="Test Button" />
+      </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="table.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="admin.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/src/test/table.test.js" />
+      <test-file value="$PROJECT_DIR$/src/test/admin.test.js" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.login.test.js" />
-        <item itemvalue="Jest.table.test.js" />
-        <item itemvalue="Jest.App test init.init" />
-        <item itemvalue="Jest.App test init" />
-        <item itemvalue="Jest.User Control test" />
+        <item itemvalue="Jest.admin.test.js" />
+        <item itemvalue="Jest.Enzyme Mount Login Input.Test admin account" />
+        <item itemvalue="Jest.Enzyme Shallow Login Init.Test Button" />
+        <item itemvalue="Jest.Admin test init" />
+        <item itemvalue="Jest.Admin test init.init" />
       </list>
     </recent_temporary>
   </component>
@@ -527,66 +431,76 @@
       <workItem from="1562667149578" duration="2007000" />
       <workItem from="1562723752725" duration="31678000" />
       <workItem from="1562812173943" duration="12501000" />
-      <workItem from="1562840925939" duration="111000" />
+      <workItem from="1562840925939" duration="1348000" />
+      <workItem from="1562845721916" duration="622000" />
+      <workItem from="1562919271752" duration="679000" />
+      <workItem from="1563242978447" duration="15178000" />
+      <workItem from="1564028779577" duration="15593000" />
+      <workItem from="1564106977950" duration="3336000" />
+      <workItem from="1564134616502" duration="612000" />
+      <workItem from="1564366354904" duration="625000" />
+      <workItem from="1564452965731" duration="10025000" />
+      <workItem from="1564475366226" duration="9953000" />
+      <workItem from="1564542894545" duration="2001000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="User_Control_test_init - 2019.07.10 at 19h 50m 43s.xml">
-      <configuration name="User Control test.init" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Enzyme_Mount_Login_Input_Test_admin_account - 2019.07.30 at 20h 27m 53s.xml">
+      <configuration name="Enzyme Mount Login Input.Test admin account" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="User_Control_test - 2019.07.10 at 19h 50m 56s.xml">
-      <configuration name="User Control test" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Enzyme_Mount_Login_Input_Test_admin_account - 2019.07.30 at 20h 33m 33s.xml">
+      <configuration name="Enzyme Mount Login Input.Test admin account" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="App_test_init - 2019.07.10 at 19h 53m 18s.xml">
-      <configuration name="App test init" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Enzyme_Mount_Login_Input_Test_admin_account - 2019.07.30 at 20h 33m 56s.xml">
+      <configuration name="Enzyme Mount Login Input.Test admin account" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="App_test_init_init - 2019.07.10 at 20h 02m 50s.xml">
-      <configuration name="App test init.init" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Enzyme_Mount_Login_Input_Test_admin_account - 2019.07.30 at 20h 34m 28s.xml">
+      <configuration name="Enzyme Mount Login Input.Test admin account" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="App_test_init_init - 2019.07.10 at 20h 03m 32s.xml">
-      <configuration name="App test init.init" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Enzyme_Mount_Login_Input_Test_admin_account - 2019.07.30 at 20h 35m 09s.xml">
+      <configuration name="Enzyme Mount Login Input.Test admin account" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="App_test_init_init - 2019.07.10 at 20h 06m 33s.xml">
-      <configuration name="App test init.init" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Enzyme_Mount_Login_Input_Test_admin_account - 2019.07.30 at 20h 37m 14s.xml">
+      <configuration name="Enzyme Mount Login Input.Test admin account" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="App_test_init_init - 2019.07.10 at 20h 09m 30s.xml">
-      <configuration name="App test init.init" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Enzyme_Mount_Login_Input_Test_admin_account - 2019.07.30 at 20h 38m 02s.xml">
+      <configuration name="Enzyme Mount Login Input.Test admin account" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="App_test_init_init - 2019.07.10 at 20h 09m 50s.xml">
-      <configuration name="App test init.init" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Enzyme_Mount_Login_Input_Test_admin_account - 2019.07.30 at 20h 38m 11s.xml">
+      <configuration name="Enzyme Mount Login Input.Test admin account" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="table_test_js - 2019.07.10 at 20h 10m 00s.xml">
-      <configuration name="table.test.js" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Enzyme_Mount_Login_Input_Test_admin_account - 2019.07.30 at 20h 42m 11s.xml">
+      <configuration name="Enzyme Mount Login Input.Test admin account" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="login_test_js - 2019.07.10 at 20h 43m 40s.xml">
-      <configuration name="login.test.js" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="admin_test_js - 2019.07.30 at 20h 43m 29s.xml">
+      <configuration name="admin.test.js" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46297000" />
+    <option name="totallyTimeSpent" value="106158000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1371" height="728" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49915966" visible="true" weight="0.24381095" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49915966" visible="true" weight="0.24851191" />
       <window_info id="Structure" order="1" sideWeight="0.50084037" side_tool="true" weight="0.18278751" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.3277311" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.15630253" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.38991597" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.05042017" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.31751227" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.8342246" weight="0.45008183" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.1657754" side_tool="true" weight="0.5478992" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32941177" />
-      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.13175933" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" visible="true" weight="0.10136157" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
@@ -601,235 +515,34 @@
       </list>
     </option>
   </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="JavaScriptTestRunnerJest">
+        <watch expression="_LoginPage.default[&quot;[[Scopes]]&quot;][&quot;0&quot;]" />
+      </configuration>
+    </watches-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/frontend_20190621_wangyiqian_practice_orderSysDemo$app_test_js.info" NAME="app.test.js Coverage Results" MODIFIED="1562746970532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/frontend_20190621_wangyiqian_practice_orderSysDemo$App_test_init__1_.info" NAME="App test init (1) Coverage Results" MODIFIED="1562743774747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/frontend_20190621_wangyiqian_practice_orderSysDemo$admin_test_js.info" NAME="admin.test.js Coverage Results" MODIFIED="1562745079327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/frontend_20190621_wangyiqian_practice_orderSysDemo$LoginPage_testing___.info" NAME="LoginPage testing... Coverage Results" MODIFIED="1562747432408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/frontend_20190621_wangyiqian_practice_orderSysDemo$User_Control_test_TableList.info" NAME="User Control test.TableList Coverage Results" MODIFIED="1562750947312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/frontend_20190621_wangyiqian_practice_orderSysDemo$Admin_modules_test.info" NAME="Admin modules test Coverage Results" MODIFIED="1563250707246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/frontend_20190621_wangyiqian_practice_orderSysDemo$Admin_test_functions.info" NAME="Admin test functions Coverage Results" MODIFIED="1563251078265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/frontend_20190621_wangyiqian_practice_orderSysDemo$App_test_init_init.info" NAME="App test init.init Coverage Results" MODIFIED="1562742214381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/frontend_20190621_wangyiqian_practice_orderSysDemo$module_test_js.info" NAME="module.test.js Coverage Results" MODIFIED="1563272106448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/frontend_20190621_wangyiqian_practice_orderSysDemo$Module_test.info" NAME="Module test Coverage Results" MODIFIED="1563272259406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/frontend_20190621_wangyiqian_practice_orderSysDemo$table_test_js.info" NAME="table.test.js Coverage Results" MODIFIED="1564471581653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/frontend_20190621_wangyiqian_practice_orderSysDemo$app_test_js.info" NAME="app.test.js Coverage Results" MODIFIED="1562746970532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/frontend_20190621_wangyiqian_practice_orderSysDemo$admin_test_js.info" NAME="admin.test.js Coverage Results" MODIFIED="1564490609653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/frontend_20190621_wangyiqian_practice_orderSysDemo$Rerun_Failed_Tests.info" NAME="Rerun Failed Tests Coverage Results" MODIFIED="1563250626290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/frontend_20190621_wangyiqian_practice_orderSysDemo$App_test_init.info" NAME="App test init Coverage Results" MODIFIED="1562747191817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/frontend_20190621_wangyiqian_practice_orderSysDemo$User_Control_test.info" NAME="User Control test Coverage Results" MODIFIED="1562749216988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/frontend_20190621_wangyiqian_practice_orderSysDemo$User_Control_test_TableList.info" NAME="User Control test.TableList Coverage Results" MODIFIED="1562750947312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/frontend_20190621_wangyiqian_practice_orderSysDemo$login_test_js.info" NAME="login.test.js Coverage Results" MODIFIED="1562758131108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/frontend_20190621_wangyiqian_practice_orderSysDemo$App_test_init_init.info" NAME="App test init.init Coverage Results" MODIFIED="1562742214381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/frontend_20190621_wangyiqian_practice_orderSysDemo$table_test_js.info" NAME="table.test.js Coverage Results" MODIFIED="1562758110213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/frontend_20190621_wangyiqian_practice_orderSysDemo$adminDOM_test_js.info" NAME="adminDOM.test.js Coverage Results" MODIFIED="1564471505124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/frontend_20190621_wangyiqian_practice_orderSysDemo$index_test_js.info" NAME="index.test.js Coverage Results" MODIFIED="1563250915863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/frontend_20190621_wangyiqian_practice_orderSysDemo$loginDOM_test_js.info" NAME="loginDOM.test.js Coverage Results" MODIFIED="1564471871128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/frontend_20190621_wangyiqian_practice_orderSysDemo$login_test_js.info" NAME="login.test.js Coverage Results" MODIFIED="1564472440281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/assets/jss/material-kit-react.jsx">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/support/jasmine.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/babel.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jest.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-657">
-          <caret line="137" column="23" selection-start-line="137" selection-start-column="23" selection-end-line="137" selection-end-column="23" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/karma.config.js" />
-    <entry file="file://$PROJECT_DIR$/karma.conf.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/karma.conf.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Typography/Success.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Typography/Warning.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coverage/html/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/CustomInput/CustomInput.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="91" column="15" selection-start-line="91" selection-start-column="15" selection-end-line="91" selection-end-column="15" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/jest-runtime/node_modules/jest-resolve/build/nodeModulesPaths.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/app.test.js" />
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/jest-runtime/node_modules/jest-resolve/build/defaultResolver.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="161" column="29" selection-start-line="161" selection-start-column="29" selection-end-line="161" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/table.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@material-ui/core/styles/props.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="91" column="12" selection-start-line="91" selection-start-column="12" selection-end-line="91" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@material-ui/core/styles/createMuiTheme.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-181">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#70#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/karma.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-401">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/bg7.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.eslintrc.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1727">
-          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@material-ui/core/styles/withStyles.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="41" column="26" lean-forward="true" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@material-ui/styles/withStyles/withStyles.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="937">
-          <caret line="47" column="14" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/tableStyle.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1083">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/jss/material-dashboard-react/layouts/dashboardStyle.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#94#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Card/CardFooter.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-330">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Card/Card.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="17" column="49" selection-start-line="17" selection-end-line="17" selection-end-column="49" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/cardFooterStyle.scss" />
-    <entry file="file://$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/cardFooterStyle.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/login.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/cardStyle.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -850,105 +563,10 @@
     <entry file="file://$PROJECT_DIR$/src/assets/jss/material-dashboard-react.jsx">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Grid/GridItem.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#291#352#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/jss/material-kit-react/views/loginPage.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/headerLinksStyle.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1826">
-          <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#96#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Grid/GridContainer.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#301#362#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/headerStyle.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-968">
-          <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#203#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/static/js/2.b77e8ca7.chunk.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret column="304037" selection-start-column="304037" selection-end-column="304037" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" selection-start-line="7" selection-end-line="10" selection-end-column="67" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#139#165#0" expanded="true" />
-            <element signature="e#336#374#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/TableList/TableList.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2530">
-          <caret line="115" column="29" selection-start-line="114" selection-start-column="10" selection-end-line="115" selection-end-column="29" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#381#439#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Table/Table.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Navbars/AdminNavbarLinks.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2772">
-          <caret line="126" selection-start-line="126" selection-end-line="126" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#239#274#0" expanded="true" />
-            <element signature="e#344#405#0" expanded="true" />
-            <element signature="e#1143#1192#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -961,7 +579,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/sidebarStyle.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1144">
+        <state relative-caret-position="814">
           <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
           <folding>
             <element signature="e#0#258#0" expanded="true" />
@@ -976,20 +594,307 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Sidebar/Sidebar.jsx">
+    <entry file="file://$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/typographyStyle.jsx" />
+    <entry file="file://$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/headerStyle.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="81" column="28" selection-start-line="81" selection-start-column="28" selection-end-line="81" selection-end-column="28" />
+        <state relative-caret-position="286">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#203#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/headerLinksStyle.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#96#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/static/js/main.9be92ef9.chunk.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="37062" selection-start-column="37062" selection-end-column="37062" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/static/js/2.b77e8ca7.chunk.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret column="304042" selection-start-column="304042" selection-end-column="304042" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/jss/material-kit-react.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/jss/material-dashboard-react/layouts/dashboardStyle.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#94#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/jss/material-dashboard-react/dropdownStyle.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#153#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fileTransformer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jest.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-401">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Card/CardFooter.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-462">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Card/CardHeader.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-330">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Grid/GridContainer.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#301#362#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Grid/GridItem.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#291#352#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/index.test.js" />
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/CustomButtons/Button.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/table.test.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/footerDOM.test.js" />
+    <entry file="file://$PROJECT_DIR$/src/test/module.test.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/Footer/Footer.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#160#186#0" expanded="true" />
+            <element signature="e#255#316#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layouts/Admin.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/CustomInput/CustomInput.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="44" column="17" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="17" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#151#177#0" expanded="true" />
+            <element signature="e#283#344#0" expanded="true" />
+            <element signature="e#524#569#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.babelrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/adminDOM.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="51" lean-forward="true" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#452#508#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/TableList/TableList.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#381#439#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Card/CardBody.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="23" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Card/Card.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="19" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/admin.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="3" selection-start-line="4" selection-start-column="1" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/login.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-server.node.development.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="3160" column="28" selection-start-line="3160" selection-start-column="28" selection-end-line="3160" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="35" column="15" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#139#165#0" expanded="true" />
+            <element signature="e#361#399#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Table/Table.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/components.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Navbars/Navbar.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1914">
-          <caret line="87" column="43" lean-forward="true" selection-start-line="87" selection-start-column="43" selection-end-line="87" selection-end-column="43" />
+        <state relative-caret-position="1672">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#141#167#0" expanded="true" />
@@ -999,27 +904,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Login/LoginPage.jsx">
+    <entry file="file://$PROJECT_DIR$/src/components/Sidebar/Sidebar.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+        <state relative-caret-position="3014">
+          <caret line="156" column="29" selection-start-line="156" selection-start-column="13" selection-end-line="156" selection-end-column="29" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#362#424#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/layouts/Admin.jsx">
+    <entry file="file://$PROJECT_DIR$/node_modules/jest-jasmine2/build/queueRunner.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        <state relative-caret-position="1782">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Navbars/AdminNavbarLinks.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2024">
+          <caret line="110" column="24" selection-start-line="110" selection-start-column="24" selection-end-line="110" selection-end-column="24" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#145#171#0" expanded="true" />
-            <element signature="e#301#350#0" expanded="true" />
-            <element signature="e#518#572#0" expanded="true" />
-            <element signature="e#754#785#0" expanded="true" />
+            <element signature="e#239#274#0" expanded="true" />
+            <element signature="e#344#405#0" expanded="true" />
+            <element signature="e#1143#1192#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-router-dom/esm/react-router-dom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2310">
+          <caret line="112" column="4" selection-start-line="112" selection-start-column="4" selection-end-line="112" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/loginDOM.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="62" column="9" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#246#272#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Login/LoginPage.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#362#424#0" expanded="true" />
+            <element signature="e#773#827#0" expanded="true" />
           </folding>
         </state>
       </provider>

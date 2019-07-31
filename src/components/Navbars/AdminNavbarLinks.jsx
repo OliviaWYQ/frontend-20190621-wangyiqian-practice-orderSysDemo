@@ -60,6 +60,7 @@ class AdminNavbarLinks extends React.Component {
     const { openNotifcation, openProfile } = this.state;
     return (
       <div>
+        {/*manager button for routers with an icon*/}
         <div className={classes.manager}>
           <Button
             buttonRef={node => {
@@ -101,14 +102,14 @@ class AdminNavbarLinks extends React.Component {
                 <Paper>
                   <ClickAwayListener onClickAway={this.handleCloseProfile}>
                     <MenuList role="menu">
-                      <MenuItem
-                        onClick={this.handleCloseProfile}
-                        className={classes.dropdownItem}
-                      >
-                        <Link to="/login" style={{ textDecoration: "none" }}>
+                      <Link to="/login" style={{ textDecoration: "none" }}>
+                        <MenuItem
+                          onClick={this.handleCloseProfile}
+                          className={classes.dropdownItem}
+                        >
                           Logout
-                        </Link>
-                      </MenuItem>
+                        </MenuItem>
+                      </Link>
                     </MenuList>
                   </ClickAwayListener>
                 </Paper>

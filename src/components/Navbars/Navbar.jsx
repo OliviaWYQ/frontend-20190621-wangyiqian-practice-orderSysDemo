@@ -24,6 +24,7 @@ import headerStyle from "../../assets/jss/material-dashboard-react/components/he
 
 import Radium, { StyleRoot } from "radium";
 
+// change styles with different size windows
 const blank = {
   float: "left",
   display: "block",
@@ -36,8 +37,9 @@ const blank = {
 };
 
 function Header({ ...props }) {
+  // router name of the page
+  var name;
   function makeBrand() {
-    var name;
     props.routes.map(prop => {
       if (window.location.href.indexOf(prop.layout + prop.path) !== -1) {
         name = prop.name;
@@ -52,11 +54,13 @@ function Header({ ...props }) {
   });
   return (
     <AppBar className={classes.appBar + appBarClasses}>
+      {/*change styles with different size windows*/}
       <StyleRoot>
         <div style={blank}>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         </div>
       </StyleRoot>
+      {/*the top nav bar*/}
       <Toolbar className={classes.container}>
         <div className={classes.flex}>
           {/* Here we create navbar brand, based on route name */}

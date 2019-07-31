@@ -7,7 +7,7 @@
  */
 // @material-ui/icons
 
-import TableList from "views/TableList/TableList.jsx";
+import TableList from "./views/TableList/TableList.jsx";
 
 const dashboardRoutes = [
   {

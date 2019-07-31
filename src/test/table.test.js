@@ -1,9 +1,9 @@
-// test
 import TableList from "../views/TableList/TableList.jsx";
 let tableList = new TableList();
 let userControl = tableList.userControl;
 let data = tableList.data;
 
+// 测试权限控制
 describe("User Control test", () => {
   it("init", () => {
     expect(TableList).not.toBeUndefined();

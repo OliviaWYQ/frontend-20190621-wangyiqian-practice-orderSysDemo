@@ -1,8 +1,10 @@
+import { withRouter } from "react-router-dom";
 import LoginPage from "../components/Login/LoginPage";
 
-let loginPage = new LoginPage();
+let loginPage = new LoginPage.WrappedComponent();
 let db = loginPage.db;
 
+// 测试登陆页 用户名密码
 describe("App test init", function() {
   it("init", function() {
     expect(LoginPage).not.toBeUndefined();
@@ -12,17 +14,18 @@ describe("App test init", function() {
 
 describe("User Login test", () => {
   it("Admin can login", () => {
-    expect(db.userdata[0].username).toBe("admin");
-    expect(db.userdata[0].password).toBe("admin");
+    expect(loginPage.isValid(db.userdata, "admin", "admin")).toBe(true);
   });
 
   it("Xiaoming can login", () => {
-    expect(db.userdata[1].username).toBe("xiaoming");
-    expect(db.userdata[1].password).toBe("xiaoming");
+    expect(loginPage.isValid(db.userdata, "xiaoming", "xiaoming")).toBe(true);
   });
 
   it("Wukong can login", () => {
-    expect(db.userdata[2].username).toBe("wukong");
-    expect(db.userdata[2].password).toBe("wukong");
+    expect(loginPage.isValid(db.userdata, "wukong", "wukong")).toBe(true);
+  });
+
+  it("Xiaohong cannot login", () => {
+    expect(loginPage.isValid(db.userdata, "xiaohong", "xiaohong")).toBe(false);
   });
 });
