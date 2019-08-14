@@ -17,6 +17,7 @@ import withStyles from "@material-ui/core/styles/withStyles";
 // core components
 import cardFooterStyle from "../../assets/jss/material-dashboard-react/components/cardFooterStyle.jsx";
 
+// 卡片下方按钮属性
 function CardFooter({ ...props }) {
   const {
     classes,

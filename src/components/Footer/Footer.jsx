@@ -15,6 +15,7 @@ import List from "@material-ui/core/List";
 // core components
 import footerStyle from "../../assets/jss/material-dashboard-react/components/footerStyle.jsx";
 
+// 网页下方copyright
 function Footer({ ...props }) {
   const { classes } = props;
   return (

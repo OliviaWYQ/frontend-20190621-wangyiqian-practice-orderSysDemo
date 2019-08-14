@@ -9,6 +9,7 @@
 
 import TableList from "./views/TableList/TableList.jsx";
 
+// 设置菜单栏中包含的Tab
 const dashboardRoutes = [
   {
     path: "/table",

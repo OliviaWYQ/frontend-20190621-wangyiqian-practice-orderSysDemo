@@ -49,6 +49,7 @@ const styles = {
 };
 
 export default class TableList extends React.Component {
+  // 表格信息数据
   data = [
     [
       "89382741",
@@ -84,7 +85,7 @@ export default class TableList extends React.Component {
     ],
     ["89382744", "鱼若初为酸菜鱼", "酸汤肥牛", "23.8", "2019-07-07", "wukong"]
   ];
-
+  // 用户鉴权
   userControl = username => {
     if (username === "admin") {
       return this.data;

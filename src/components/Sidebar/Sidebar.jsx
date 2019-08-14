@@ -35,7 +35,7 @@ const blank = {
     width: 0,
   }
 }
-
+// 侧面的菜单栏
 const Sidebar = ({ ...props }) => {
   // verifies if routeName is the one active (in browser input)
   function activeRoute(routeName) {

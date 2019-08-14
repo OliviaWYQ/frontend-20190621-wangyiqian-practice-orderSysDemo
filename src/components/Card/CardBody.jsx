@@ -17,6 +17,7 @@ import withStyles from "@material-ui/core/styles/withStyles";
 // core components
 import cardBodyStyle from "../../assets/jss/material-dashboard-react/components/cardBodyStyle.jsx";
 
+// 卡片内部属性
 function CardBody({ ...props }) {
   const { classes, className, children, plain, profile, ...rest } = props;
   const cardBodyClasses = classNames({

@@ -37,15 +37,16 @@ class AdminNavbarLinks extends React.Component {
     openNotifcation: false,
     openProfile: false
   };
-  handleToggleNotification = () => {
-    this.setState(state => ({ openNotifcation: !state.openNotifcation }));
-  };
-  handleCloseNotification = event => {
-    if (this.anchorNotification.contains(event.target)) {
-      return;
-    }
-    this.setState({ openNotifcation: false });
-  };
+  // handleToggleNotification = () => {
+  //   this.setState(state => ({ openNotifcation: !state.openNotifcation }));
+  // };
+  // handleCloseNotification = event => {
+  //   if (this.anchorNotification.contains(event.target)) {
+  //     return;
+  //   }
+  //   this.setState({ openNotifcation: false });
+  // };
+  // 点击打开登出栏
   handleToggleProfile = () => {
     this.setState(state => ({ openProfile: !state.openProfile }));
   };

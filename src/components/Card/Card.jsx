@@ -17,6 +17,7 @@ import withStyles from "@material-ui/core/styles/withStyles";
 // core components
 import cardStyle from "../../assets/jss/material-dashboard-react/components/cardStyle.jsx";
 
+// 卡片的属性
 function Card({ ...props }) {
   const {
     classes,

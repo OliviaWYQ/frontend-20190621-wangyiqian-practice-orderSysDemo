@@ -32,7 +32,7 @@ function CustomInput({ ...props }) {
     // eslint-disable-next-line react/prop-types
     onChange
   } = props;
-
+  // 输入框标签
   const labelClasses = classNames({
     [" " + classes.labelRootError]: error,
     [" " + classes.labelRootSuccess]: success && !error
@@ -46,6 +46,7 @@ function CustomInput({ ...props }) {
     [classes.marginTop]: labelText === undefined
   });
   return (
+    // 作为表单提交
     <FormControl
       {...formControlProps}
       className={formControlProps.className + " " + classes.formControl}

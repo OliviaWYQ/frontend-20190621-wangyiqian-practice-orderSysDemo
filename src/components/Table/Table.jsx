@@ -17,6 +17,7 @@ import TableCell from "@material-ui/core/TableCell";
 // core components
 import tableStyle from "../../assets/jss/material-dashboard-react/components/tableStyle.jsx";
 
+// 表格样式
 function CustomTable({ ...props }) {
   const { classes, tableHead, tableData, tableHeaderColor } = props;
   return (

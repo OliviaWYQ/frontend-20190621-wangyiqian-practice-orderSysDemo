@@ -32,7 +32,7 @@ class Dashboard extends React.Component {
     isMounted: false
   };
   mainPanel = React.createRef();
-
+  // 菜单栏
   switchRoutes = (
     <Switch>
       {routes.map((prop, key) => {
@@ -50,17 +50,17 @@ class Dashboard extends React.Component {
       <Redirect from="/admin" to="/admin/table" />
     </Switch>
   );
-
+  // 移动端视图
   handleDrawerToggle = () => {
     this.setState({ mobileOpen: !this.state.mobileOpen });
   };
-
+  // 移动端视图
   resizeFunction = () => {
     if (window.innerWidth >= 960) {
       this.setState({ mobileOpen: false });
     }
   };
-
+  // 移动端视图
   componentDidUpdate(e) {
     if (e.history.location.pathname !== e.location.pathname) {
       this.mainPanel.current.scrollTop = 0;

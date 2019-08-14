@@ -40,6 +40,7 @@ import { withRouter } from "react-router-dom";
 // @withRouter
 class LoginPage extends React.Component {
   // mock database for users
+  // 一共3个用户
   db = {
     userdata: [
       {
@@ -95,7 +96,7 @@ class LoginPage extends React.Component {
       password: passwd
     });
   }
-
+  // 检测登陆信息是否正确
   isValid(data, username, password) {
     for (var i = 0; i < data.length; i++) {
       if (data[i].username === username && data[i].password === password) {
@@ -129,13 +130,13 @@ class LoginPage extends React.Component {
       }
     }, 0);
   }
-
+  // 弹出窗口
   handleClickOpen() {
     this.setState({
       open: true
     });
   }
-
+  // 关闭窗口
   handleClose() {
     this.setState({
       open: false

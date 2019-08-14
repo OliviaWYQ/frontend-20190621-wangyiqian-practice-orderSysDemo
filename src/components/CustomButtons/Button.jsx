@@ -53,6 +53,7 @@ function RegularButton({ ...props }) {
 
 RegularButton.propTypes = {
   classes: PropTypes.object.isRequired,
+  // 按键颜色
   color: PropTypes.oneOf([
     "primary",
     "info",
