@@ -32,7 +32,7 @@
     "react-google-maps": "9.4.5",
     "react-redux": "^7.1.0",
     "react-router-dom": "5.0.1",
-    "react-scripts": "^3.0.1",
+    "react-scripts": "^5.0.1",
     "react-swipeable-views": "0.13.3",
     "redux": "^4.0.4",
     "sinon": "^7.3.2"
@@ -102,7 +102,7 @@
     "karma-webpack": "^4.0.2",
     "prettier": "1.18.2",
     "webpack": "4.29.6",
-    "webpack-cli": "^3.3.5"
+    "webpack-cli": "^3.3.12"
   },
   "browserslist": {
     "production": [
